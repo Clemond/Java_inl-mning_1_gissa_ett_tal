@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Game {
     
-    public void Game(){
+    public void game(){
         boolean playAgain = true;
 
         System.out.println("Hej och välkommen till spelet 'gissa ett tal'");
