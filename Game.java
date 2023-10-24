@@ -7,11 +7,13 @@ public class Game {
         boolean playAgain = true;
 
         System.out.println("Hej och välkommen till spelet 'gissa ett tal'");
+
         while(playAgain){
             System.out.println("Vänligen gissa på ett tal mellan 1 och 100: ");
-            //Skapa ett random objekt, Generera fram ett random tal mellan 1 och 100
+
             Random randomNumber = new Random();
             int rightAnswere = randomNumber.nextInt(100);
+            rightAnswere = rightAnswere + 1;
 
             boolean gameOn = true;
             int försök = 0;
